@@ -1,0 +1,16 @@
+{
+  "name": "my-ai-tutor",
+  "version": "1.0.0",
+  "description": "Real-time AI tutor chat with voice",
+  "type": "module",
+  "main": "simple-server.js",
+  "scripts": {
+    "start": "node simple-server.js",
+    "dev": "nodemon simple-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  }
+}
